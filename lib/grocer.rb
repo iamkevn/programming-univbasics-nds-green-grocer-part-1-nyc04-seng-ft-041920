@@ -16,13 +16,3 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
 
 end
-
-
-def find (collection, name)
-  collection.each do |hash|
-    hash.each do |key,value|
-      value.include?(name)
-      puts Hash
-    end
-  end
-end
